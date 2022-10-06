@@ -74,7 +74,7 @@ type
 
 var
   Form1: TForm1;
-//Нужно ввести переменную класса TMyThread
+//ГЌГіГ¦Г­Г® ГўГўГҐГ±ГІГЁ ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ ГЄГ«Г Г±Г±Г  TMyThread
   MyThread: TMyThread;
   SUI:integer;
 
@@ -87,8 +87,8 @@ IdIcmpClient: TIdIcmpClient;
 Mycomponent:Tcomponent;
 ip:string;
 begin
-//Здесь описывается код, который будет выполняться в потоке
-ip:='10.17.108.195';
+//Г‡Г¤ГҐГ±Гј Г®ГЇГЁГ±Г»ГўГ ГҐГІГ±Гї ГЄГ®Г¤, ГЄГ®ГІГ®Г°Г»Г© ГЎГіГ¤ГҐГІ ГўГ»ГЇГ®Г«Г­ГїГІГјГ±Гї Гў ГЇГ®ГІГ®ГЄГҐ
+ip:='192.168.137.1';
 SUI:=1;
 IdIcmpClient:=TIdIcmpClient.Create(nil);
 while SUI<>46 do
@@ -111,55 +111,29 @@ begin
  Tradiobutton(Mycomponent).Hint:=IdIcmpClient.Host;
  Tradiobutton(Mycomponent).ShowHint:=true;
   SUI:=SUI+1;
-  if SUI =2 then ip:='10.17.108.227';
-  if SUI =3 then ip:='10.17.109.3';
-  if SUI =4 then ip:='10.17.109.35';
-  if SUI =5 then ip:='10.17.109.67';
-  if SUI =6 then ip:='10.17.109.100';
-  if SUI =7 then ip:='10.17.7.129';
-  if SUI =8 then ip:='10.17.128.67';
-  if SUI =9 then ip:='10.17.109.131';
-  if SUI =10 then ip:='10.17.93.3';
+  if SUI =2 then ip:='192.168.137.1';
+  if SUI =3 then ip:='192.168.137.1';
+  if SUI =4 then ip:='192.168.137.1';
+  if SUI =5 then ip:='192.168.137.1';
+  if SUI =6 then ip:='192.168.137.1';
+  if SUI =7 then ip:='192.168.137.1';
+  if SUI =8 then ip:='192.168.137.1';
+  if SUI =9 then ip:='192.168.137.1';
+  if SUI =10 then ip:='192.168.137.1';
 
-  if SUI =11 then ip:='10.17.128.34';
-  if SUI =12 then ip:='10.17.92.193';
-  if SUI =13 then ip:='172.21.212.38';
-  if SUI =14 then ip:='10.17.109.227';
-  if SUI =15 then ip:='10.17.110.3';
-  if SUI =16 then ip:='10.17.110.35';
-  if SUI =17 then ip:='10.17.110.67';
-  if SUI =18 then ip:='10.17.110.98';
-  if SUI =19 then ip:='10.17.110.131';
-  if SUI =20 then ip:='10.17.110.163';
+  if SUI =11 then ip:='192.168.137.1';
+  if SUI =12 then ip:='192.168.137.1';
+  if SUI =13 then ip:='192.168.137.1';
+  if SUI =14 then ip:='192.168.137.1';
+  if SUI =15 then ip:='192.168.137.1';
+  if SUI =16 then ip:='192.168.137.1';
+  if SUI =17 then ip:='192.168.137.1';
+  if SUI =18 then ip:='192.168.137.1';
+  if SUI =19 then ip:='192.168.137.1';
+  if SUI =20 then ip:='192.168.137.1';
 
-  if SUI =21 then ip:='10.17.110.195';
-  if SUI =22 then ip:='10.17.119.195';
-  if SUI =23 then ip:='10.17.119.225';
-  if SUI =24 then ip:='10.17.110.226';
-  if SUI =25 then ip:='10.17.120.3';
-  if SUI =26 then ip:='10.17.111.2';
-  if SUI =27 then ip:='10.17.111.35';
-  if SUI =28 then ip:='10.17.111.68';
-  if SUI =29 then ip:='10.17.111.99';
-  if SUI =30 then ip:='10.17.128.98';
-
-  if SUI =31 then ip:='10.17.92.129';
-  if SUI =32 then ip:='10.17.93.131';
-  if SUI =33 then ip:='87.225.97.2';
-  if SUI =34 then ip:='10.17.120.162';
-  if SUI =35 then ip:='10.17.213.133';
-  if SUI =36 then ip:='10.17.213.133';
-  if SUI =37 then ip:='10.17.94.3';
-  if SUI =38 then ip:='10.17.94.67';
-  if SUI =39 then ip:='10.17.94.130';
-  if SUI =40 then ip:='10.17.213.149';
-
-  if SUI =41 then ip:='10.17.112.3';
-  if SUI =42 then ip:='10.17.112.34';
-  if SUI =43 then ip:='10.17.112.68';
-  if SUI =44 then ip:='10.17.112.100';
-  if SUI =45 then ip:='10.17.112.131';
-  if SUI =46 then
+  if SUI =21 then ip:='192.168.137.1';
+  if SUI =22 then
   finally
 
 end;
